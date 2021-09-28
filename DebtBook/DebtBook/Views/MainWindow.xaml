@@ -1,0 +1,29 @@
+﻿<Window x:Class="DebtBook.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/" xmlns:local="clr-namespace:DebtBook.ViewModels"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <Label Margin="20,0">Debtors</Label>
+                <ListBox Height="200"  Margin="20,0"  BorderThickness="2" Width="300"
+                         ItemsSource="{Binding Path=Debtors}">
+                    
+                </ListBox>
+            </StackPanel>
+            
+            <StackPanel>
+                <Button Width="100" Height="25" Margin="20"
+                        Content="Add Debtor" ></Button>
+            </StackPanel>
+            
+
+        </StackPanel >
+    </Grid>
+</Window>
