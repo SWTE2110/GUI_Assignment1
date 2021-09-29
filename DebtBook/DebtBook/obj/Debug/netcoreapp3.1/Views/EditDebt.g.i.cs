@@ -10,6 +10,13 @@
 //------------------------------------------------------------------------------
 
 using DebtBook.Views;
+using Prism.Interactivity;
+using Prism.Ioc;
+using Prism.Mvvm;
+using Prism.Regions;
+using Prism.Regions.Behaviors;
+using Prism.Services.Dialogs;
+using Prism.Unity;
 using System;
 using System.Diagnostics;
 using System.Windows;
