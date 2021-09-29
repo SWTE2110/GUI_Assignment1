@@ -4,9 +4,7 @@
         xmlns:prism="http://prismlibrary.com/" xmlns:local="clr-namespace:DebtBook.ViewModels"
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525" >
-    <Window.DataContext>
-        <local:MainWindowViewModel/>
-    </Window.DataContext>
+    
     <Grid>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
         <StackPanel Orientation="Horizontal">

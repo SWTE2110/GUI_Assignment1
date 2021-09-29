@@ -48,11 +48,11 @@ namespace DebtBook.ViewModels
             return true;
         }
 
-        public virtual void OnDialogClose(){}
+        public virtual void OnDialogClosed(){}
 
         public virtual void OnDialogOpened(IDialogParameters par)
         {
-            Debtor = par.GetValue<Debtor>()
+            Debtor = par.GetValue<Debtor>("hm?");
         }
 
         public AddDebtorViewModel()

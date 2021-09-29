@@ -10,7 +10,6 @@ C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\bin\Debug\netcorea
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\bin\Debug\netcoreapp3.1\Unity.Container.dll
-C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\DebtBook.csproj.AssemblyReference.cache
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\App.g.cs
@@ -26,3 +25,5 @@ C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcorea
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\DebtBook.genruntimeconfig.cache
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\DebtBook_MarkupCompile.lref
+C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\Views\AddDebtor.baml
+C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\Views\AddDebtor.g.cs
