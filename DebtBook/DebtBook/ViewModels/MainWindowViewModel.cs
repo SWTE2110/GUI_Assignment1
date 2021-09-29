@@ -19,8 +19,8 @@ namespace DebtBook.ViewModels
             set => SetProperty(ref debtors, value);
 
         }
-        private string _title = "Prism Application";
-        public string Title
+        private string _title = "The Debt Book";
+        public string Titles
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
