@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\source\\repos\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj": {}
+    "C:\\Users\\asger\\source\\repos\\SWTE2110\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\source\\repos\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj": {
+    "C:\\Users\\asger\\source\\repos\\SWTE2110\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\source\\repos\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj",
+        "projectUniqueName": "C:\\Users\\asger\\source\\repos\\SWTE2110\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj",
         "projectName": "DebtBook",
-        "projectPath": "C:\\Users\\mathi\\source\\repos\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj",
-        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\source\\repos\\GUI_Assignment1\\DebtBook\\DebtBook\\obj\\",
+        "projectPath": "C:\\Users\\asger\\source\\repos\\SWTE2110\\GUI_Assignment1\\DebtBook\\DebtBook\\DebtBook.csproj",
+        "packagesPath": "C:\\Users\\asger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asger\\source\\repos\\SWTE2110\\GUI_Assignment1\\DebtBook\\DebtBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +44,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
             "Prism.Unity": {
               "target": "Package",
-              "version": "[8.0.0.1909, )"
+              "version": "[8.1.97, )"
             }
           },
           "imports": [
@@ -63,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
