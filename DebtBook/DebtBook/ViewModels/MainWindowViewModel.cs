@@ -20,7 +20,7 @@ namespace DebtBook.ViewModels
 
         }
         private string _title = "The Debt Book";
-        public string Titles
+        public string Title
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
