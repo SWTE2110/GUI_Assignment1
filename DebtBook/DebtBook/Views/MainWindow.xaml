@@ -18,7 +18,8 @@
             
             <StackPanel>
                 <Button Width="100" Height="25" Margin="20"
-                        Content="Add Debtor" ></Button>
+                        Content="Add Debtor"
+                        Command ="{Binding ShowCloseAddDebtor}"></Button>
             </StackPanel>
             
 
