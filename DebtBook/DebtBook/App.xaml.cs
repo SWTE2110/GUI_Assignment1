@@ -1,6 +1,8 @@
 ﻿using DebtBook.Views;
 using Prism.Ioc;
 using System.Windows;
+using DebtBook.Models;
+using DebtBook.ViewModels;
 
 namespace DebtBook
 {
@@ -16,9 +18,10 @@ namespace DebtBook
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterDialog<AddDebtor,AddDebtorViewModel>();
         }
 
-        
+        public Debtor GDebtor { get; set; }
+
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\asger\source\repos\SWTE2110\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\
+C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\obj\Debug\netcoreapp3.1\
 DebtBook
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\asger\source\repos\SWTE2110\GUI_Assignment1\DebtBook\DebtBook\App.xaml
-21166497594
+C:\Users\mathi\source\repos\GUI_Assignment1\DebtBook\DebtBook\App.xaml
+32073520670
 
-9-1699762335
-198-233090573
-Views\AddDebtor.xaml;Views\MainWindow.xaml;
+10-1529377037
+198-756816588
+Views\AddDebtor.xaml;Views\EditDebt.xaml;Views\MainWindow.xaml;
 
 False
 

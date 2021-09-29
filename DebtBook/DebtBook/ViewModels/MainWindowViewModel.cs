@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Net.Mime;
+using System.Windows;
 using DebtBook.Models;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -19,8 +21,17 @@ namespace DebtBook.ViewModels
             set => SetProperty(ref debtors, value);
 
         }
-        private string _title = "The Debt Book";
-        public string Titles
+
+        private Debtor _currentDebtor;
+
+        public Debtor CurrentDebtor
+        {
+            set => _currentDebtor = value;
+            get => _currentDebtor;
+        }
+
+        private string _title = "Prism Application";
+        public string Title
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
@@ -29,6 +40,7 @@ namespace DebtBook.ViewModels
         public MainWindowViewModel(IDialogService dialogService)
         {
             _dialogService = dialogService;
+            
             Debtors = new ObservableCollection<Debtor>();
             Debtors.Add(new Debtor(new Debt(new DateTime(2017,09,28),100),"Baren"));
 
@@ -41,17 +53,15 @@ namespace DebtBook.ViewModels
 
         void ExecuteShowCloseAddDebtor()
         {
-            Debtor d = new Debtor();
+            
 
-            _dialogService.ShowDialog("Add Debtor", new DialogParameters($"debtor={d}"), r =>
+            _dialogService.ShowDialog("AddDebtor", null, r =>
             {
                 if (r.Result == ButtonResult.None) {}
                 else if (r.Result == ButtonResult.OK)
-                    Debtors.Add(d);
+                    Debtors.Add(((App)Application.Current).GDebtor);
                 else if(r.Result == ButtonResult.Cancel) {}
-                else
-                {
-                }
+                
             });
 
         }
